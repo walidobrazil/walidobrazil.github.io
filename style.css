@@ -1,0 +1,149 @@
+@media screen and (max-width: 768px){
+    body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    img {
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+@keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .rotating:hover {
+    animation: rotating 2s linear infinite;
+  }
+
+h1 {
+    font-size: 24px;
+}
+
+.profilpick {
+    width: 100px;
+    height: 100px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+p, ul {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+}
+@media screen and (768px<= width <= 1024px) {
+    body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    img {
+     
+        object-fit: cover;
+    }
+}
+@keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotating:hover {
+    animation: rotating 2s linear infinite;
+  }
+h1 {
+    font-size: 24px;
+}
+
+.profilpick {
+    width: 100px;
+    height: 100px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+p, ul {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+}
+@media screen and (min-width: 1024px){
+    body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    img {
+     
+        object-fit: cover;
+    }
+}
+@keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .rotating:hover {
+    animation: rotating 2s linear infinite;
+  }
+h1 {
+    font-size: 24px;
+}
+
+.profilpick {
+    width: 100px;
+    height: 100px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+p, ul {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+}
